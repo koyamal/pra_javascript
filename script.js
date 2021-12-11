@@ -1,5 +1,9 @@
 $(function(){
   $('#btn1').click(function(){
-    $('h1').fadeIn();
+    if($('h1').hasClass('show')){
+      $('h1').removeClass('show');
+    }else{
+      $('h1').addClass('show');
+    }
   });
 });
