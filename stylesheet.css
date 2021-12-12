@@ -18,6 +18,7 @@ header{
 body{
   background-image: url('bg-image-03.jpg');
   padding-top: 80px;
+  position: relative;
 }
 
 footer{
@@ -25,13 +26,19 @@ footer{
   height: 40px;
   background-color: #555555;
   opacity: 0.9;
-  margin-top: 30px;
+  margin-top: 80px;
   color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 footer p{
   display: inline-block;
   float: right;
+}
+
+.bottom-fix{
+  padding-top: 45px;
 }
 
 /*==============================What==============================*/
