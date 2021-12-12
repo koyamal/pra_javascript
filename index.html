@@ -6,8 +6,67 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
-    <button type="button" id="btn1">クリックしてみてください</button>
-    <h1>Hello World!</h1>
+    <header>
+      <div>
+        <h1>Pra_Web ~JQuery~</h1>
+      </div>
+    </header>
+    <div class="whatJQuery center">
+        <div class="title">
+          JQueryとは？
+        </div>
+        <div class="explain_whatJQ">
+          <p>
+            JQueryとはWebページの開発を簡単に行うためのJavaScriptのライブラリです。<br>
+            JQueryを使うことで、JavaScriptだと数十行必要だった処理を数行で記述することができます。
+          </p>
+        </div>
+    </div>
+    <div class="HowtoJQuery_box center">
+      <div class="HowtoJQuery title">JQueryの使い方</div>
+      <div class="explain_HowtoJQ">
+        <p>
+          JQueryは下記のように<span class="selector">何(JQueryオブジェクト)</span>を<span class="mt">どうするか(メソッド)</span>記述します。
+        </p>
+        <p class="howto_img">$('<span class="selector">セレクタ</span>').<span class="mt">メソッド</span>(引数);</p>
+      </div>
+    </div>
+    <div class="method_lists center">
+      <div class="title">JQueryのメソッド</div>
+      <ul>
+        <li class="method">
+          <div class="name_method">fadeOut()<span>+</span></div>
+          <div class="hide_content">
+            <div class="fix-box">
+              <div id="tgt_fadeout">Hello World!</div>
+
+            </div>
+            <div class="method_hover" id="trg_fadeout">メソッドを適用</div>
+          </div>
+        </li>
+        <li class="method">
+          <div class="name_method">css()<span>+</span></div>
+          <div class="hide_content">
+            <div class="fix-box">
+              <div id="tgt_css">Hello World!</div>
+
+            </div>
+            <div class="method_hover" id="trg_css">メソッドを適用</div>
+          </div>
+        </li>
+        <li class="method">
+          <div class="name_method">text()<span>+</span></div>
+          <div class="hide_content">
+            <div class="fix-box">
+              <div id="tgt_text">Hello World!</div>
+
+            </div>
+            <div class="method_hover" id="trg_text">メソッドを適用</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <footer><p>Pra_Web ~JQuery~</p></footer>
     <script src="script.js"></script>
   </body>
 </html>

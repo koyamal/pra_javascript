@@ -1,7 +1,122 @@
-h1{
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: #555555;
+  opacity: 0.9;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+body{
+  background-image: url('bg-image-03.jpg');
+  padding-top: 80px;
+}
+
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: #555555;
+  opacity: 0.9;
+  margin-top: 30px;
+  color: white;
+}
+
+footer p{
+  display: inline-block;
+  float: right;
+}
+
+/*==============================What==============================*/
+.explain_whatJQ{
+  margin-top: 30px;
+}
+
+
+/*==============================Howto==============================*/
+.explain_HowtoJQ{
+  margin-top: 30px;
+}
+
+.HowtoJQuery_box{
+  margin-top: 50px;
+}
+
+.howto_img{
+  margin: 30px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+/*==============================method==============================*/
+.method_lists ul{
+  margin-top: 30px;
+  list-style: none;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.method_lists li{
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.name_method{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.method{
+  border-bottom: solid;
+  position: relative;
+}
+
+.method span{
+  position: absolute;
+  top: 0px;
+  right: 4px;
+}
+
+.method_hover{
+  background-color: #778899;
+  color: white;
+  padding: 5px 5px;
+  display: inline-block;
+}
+
+.mt{
+  color: #0000CD;
+}
+
+.fix-box{
+  height: 30px;
+}
+
+
+/*==============================common==============================*/
+.title{
+  font-size: 50px;
+}
+
+.selector{
+  color: #FF6347;
+}
+
+.hide_content{
   display: none;
 }
 
 .show{
   display: block;
+}
+
+.center{
+  text-align: center;
 }
